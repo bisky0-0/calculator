@@ -84,6 +84,9 @@ buttons container design
 }
 
 button{
+    display: flex;
+        align-items: center;
+        justify-content: center;
     height: calc(75% / 5);
     width: calc(90% /4);
     font-size: 1.4rem;
