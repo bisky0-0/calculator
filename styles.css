@@ -118,4 +118,15 @@ button:hover, button:focus{
         height: 100vh;
         border-radius: 0;
     }
+
+    button{
+        font-size: 3rem;
+        background-color: rgb(12, 12, 18);
+    }
+
+    #equal{
+        font-size: 5.5rem;
+        box-shadow: rgb(64, 64, 64) .8px 0.8px 1.9px 0px inset,
+      rgba(67, 66, 66, 0.5) -.8px -.8px 1.9px .6px inset;
+    }
 }
