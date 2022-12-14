@@ -156,7 +156,7 @@ equal.addEventListener('click', function () {
 });
 
 deleteBtn.addEventListener('click', function () {
-    calcResult.textContent = "0";
+    calcResult.textContent = "";
     visibaleCalculations.textContent = calculations.textContent;
     visibaleCalculations.textContent = visibaleCalculations.textContent.slice(0, -1)
     calculations.textContent = calculations.textContent.slice(0, -1)
@@ -165,8 +165,9 @@ deleteBtn.addEventListener('click', function () {
 clear.addEventListener('click', function () {
     calculationsArray = calculations.textContent.split(' ');
     visibaleCalculations.textContent = "";
-    calcResult.textContent = "0";
-    calculationsArray.splice(0, calculationsArray.length)
+    calcResult.textContent = "";
+    calculationsArray.splice(0, calculationsArray.length);
+    calculations.textContent = "";
 });
 
 document.addEventListener("keydown", function (event) {

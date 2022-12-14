@@ -77,11 +77,11 @@ buttons container design
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 button{
-    height: calc(77% / 5);
+    height: calc(75% / 5);
     width: calc(90% /4);
     font-size: 1.4rem;
     background-color: rgb(16, 16, 24);
