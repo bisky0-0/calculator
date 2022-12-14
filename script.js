@@ -11,7 +11,7 @@ let calculationsArray;
 let result;
 for (const button of typedButtons) {
     button.addEventListener("click", function () {
-        if (calculations.textContent.length <= 29) {
+        if (calculations.textContent.length <= 27) {
             if (button.classList.contains("mathematic-symbols")) {
                 calculations.textContent += ` ${(button.value)} `;
                 visibaleCalculations.textContent += ` ${(button.value)} `;
