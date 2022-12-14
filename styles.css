@@ -149,4 +149,8 @@ button:hover, button:focus{
         box-shadow: rgb(64, 64, 64) .8px 0.8px 1.9px 0px inset,
       rgba(67, 66, 66, 0.5) -.8px -.8px 1.9px .6px inset;
     }
+    #info > a{
+        text-decoration: none;
+        color: #b2b6ff85;
+    }
 }
