@@ -4,6 +4,9 @@
     box-sizing: border-box;
     color: #fff;
 }
+:root {
+    color-scheme: only light;
+}
 
 body{
     min-height: 100vh;
