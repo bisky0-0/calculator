@@ -1,4 +1,5 @@
 # calculator
 
-calculator project using javaScript, HTML, and css;
-you can use it from the <a href="https://bisky0-0.github.io/calculator/">🖩 live demo 🖩</a>
+![image](https://github.com/bisky0-0/calculator/assets/88213094/4aa841a6-008c-4267-a162-6e121c428e07)
+
+
